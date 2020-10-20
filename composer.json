@@ -1,6 +1,7 @@
 {
     "name": "primitive/response",
     "description": "an elegant response package",
+    "type": "library",
     "require": {
         "php": ">=7.4",
         "illuminate/contracts": "^8.10"

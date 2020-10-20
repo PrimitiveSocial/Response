@@ -1,6 +1,6 @@
 <?php
 
-namespace Primitive\Response\Response\Error;
+namespace Primitive\Response\Error;
 
 use Illuminate\Contracts\Support\Responsable;
 
