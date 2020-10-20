@@ -7,7 +7,8 @@
         "illuminate/contracts": "^8.10"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.4"
+        "phpunit/phpunit": "^9.4",
+        "larapack/dd": "^1.1"
     },
     "license": "MIT",
     "authors": [
@@ -17,9 +18,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Primitive\\Response\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
