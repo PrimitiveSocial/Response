@@ -13,8 +13,6 @@ class CreatedTest extends TestCase
         $location = 'https://api.test.dev/v1/users/1';
         $response = new Created($location);
 
-        dd($response);
-
         $this->assertInstanceOf(Responsable::class, $response);
         $this->assertSame(201, $response->status());
     }
